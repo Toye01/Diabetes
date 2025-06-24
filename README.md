@@ -4,6 +4,7 @@ This project is a **Diabetes Prediction Web Application** built using a Machine 
 
 The solution consists of:
 - A **Jupyter Notebook** for data exploration, model training & evaluation.
+  ![App Screenshot](https://github.com/Toye01/Diabetes/blob/main/Screenshot%202025-06-24%20132140.png)
 - A **Streamlit** app for a user-friendly interface to make predictions.
   
 ![App Screenshot](https://github.com/Toye01/Diabetes/blob/main/Screenshot%202025-06-24%20130400.png)
@@ -20,9 +21,17 @@ This project is trained on the **Pima Indians Diabetes Dataset** containing feat
 - BMI
 - Age
 - Pregnancies
+- Insulin
+- SkinThickness
+- DiabetesPedigreeFunction
+- BloodPressure
 
 You can obtain the dataset from [UCI Machine Learning Repository](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database?select=diabetes.csv).
 
+## Feature Selection Technique
+- We can use correlation matrix to pick the most important feature
+- Correlation Matrix measure the linear relationship between the target and the feature
+- Helps visualize which features are strongly correlated with outcome
 
 ## Model Development
 1. **Preprocessing**: Features were scaled using `StandardScaler`.
@@ -35,13 +44,8 @@ You can obtain the dataset from [UCI Machine Learning Repository](https://www.ka
 Run the `stremlit_app_2.py` file to launch a local web app:
 ```bash
 streamlit run stremlit_app_2.py
-
 You will see:
-
 Input fields for Glucose, BMI, Age, Pregnancies.
-
 A "Prediction" button that returns:
-
 Diabetic or Not Diabetic
-
 Prediction confidence (probability score)
