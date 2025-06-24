@@ -66,5 +66,5 @@ Prediction confidence (probability score)
 
 ## Contact
 Feel free to reach out:
-- GitHub: [https://github.com/Toye01](https://github.com/Owaboye/diabetes_detection_ml_appp/tree/main)
-- LinkedIn: [Owaboye OLuwasanjo Ezekiel](https://www.linkedin.com/in/yourprofile/)
+- GitHub: [https://github.com/Toye01](https://github.com/Toye01/Diabetes/blob/main/README.md)
+- LinkedIn: [Ebenezer Akintoye Akinniyi](https://www.linkedin.com/in/ebenezer-akintoye-akinniyi-178a4215b/)
