@@ -6,7 +6,7 @@ The solution consists of:
 - A **Jupyter Notebook** for data exploration, model training & evaluation.
 - A **Streamlit** app for a user-friendly interface to make predictions.
   
-![App Screenshot](Screenshot 2025-06-24 130400.png)
+![App Screenshot](https://github.com/Toye01/Diabetes/blob/main/Screenshot%202025-06-24%20130400.png)
 
 - ## Key Features
 - Loads a pre-trained Diabetes model and scaler.
