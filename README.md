@@ -49,3 +49,22 @@ Input fields for Glucose, BMI, Age, Pregnancies.
 A "Prediction" button that returns:
 Diabetic or Not Diabetic
 Prediction confidence (probability score)
+
+## Installation & Usage
+- git clone https://github.com/Toye01/diabetes-prediction-app.git
+- cd diabetes-prediction-app
+- pip install -r requirements.txt
+- streamlit run stremlit_app_2.py
+
+## **Project Structure**
+- ├── Ml_Project.ipynb         # Notebook for EDA, Model Training & Evaluation
+- ├── stremlit_app_2.py        # Streamlit UI for making predictions
+- ├── new_diabetes_model.pkl    # Saved trained model
+- ├── new_scaler.pkl            # Saved scaler for preprocessing
+- ├── requirements.txt          # Dependencies
+- └── README.md
+
+## Contact
+Feel free to reach out:
+- GitHub: [https://github.com/Toye01](https://github.com/Owaboye/diabetes_detection_ml_appp/tree/main)
+- LinkedIn: [Owaboye OLuwasanjo Ezekiel](https://www.linkedin.com/in/yourprofile/)
